@@ -1,4 +1,4 @@
-SESSION 1
+SESSION 1(~2hours)
 
 So I found out about the program barely a few days ago and decided to make one. I didn't read the entire guide, so I started the CAD before going through it in order. I'm now finished with the CAD and schematic. Took about 2 hours. I might add an engraving to the Front left side of the case.
 
@@ -10,14 +10,14 @@ The schematic is going to be easy, I have it in my mind, just need to sketch it 
 <img width="928" height="688" alt="Screenshot 2026-07-02 183326" src="https://github.com/user-attachments/assets/a89df7a4-59a1-4160-9d53-a9cc6c26626f" />
 
 
-UPDATE TO SESSION 1
+UPDATE TO SESSION 1(~50min)
 
-I switched a 3x3 matrix instead of a 4x4, which made more sense, and I also embossed my middle to the front.
-
-
+I switched a 3x3 matrix instead of a 4x4, which made more sense, and I also embossed my middle to the front. one annoying part in the assebly was the switches as sometime when you try to move them they break apart in pieces so i had to reinsert them as a whole part. 
 
 
-<img width="906" height="631" alt="Screenshot 2026-07-02 191723" src="https://github.com/user-attachments/assets/0b950e5c-ce36-40c5-a33a-86888a6dbe2d" />
+
+<img width="988" height="676" alt="Screenshot 2026-07-09 164457" src="https://github.com/user-attachments/assets/19d1c25c-6505-4019-94d5-5ad917d821c6" />
+
 
 
 
@@ -31,9 +31,9 @@ I had to sacrifice the backlit adjustment with the code feature; it will be stuc
 
 
 
-SESSION 3 
+SESSION 3(3-4 hours sprinkled throughout the week)
 
-Today I finished implementing the main challenge that makes the alarm clock unique. Instead of simply pressing a button to turn the alarm off, the firmware now generates a random sequence using all 9 switches arranged in the 3×3 matrix. Every time the alarm is triggered, the order is different, making each attempt unpredictable.
+Today I finished implementing the main challenge that makes the alarm clock unique. Instead of simply pressing a button to turn the alarm off, the firmware should generates a random sequence using all 9 switches arranged in the 3×3 matrix. Every time the alarm is triggered, the order is different, making each attempt unpredictable.
 The sequence is displayed on the TFT screen, allowing the user a brief moment to memorise it before attempting to recreate it using the physical switches. The program continuously scans the switch matrix, compares each input against the expected switch in the sequence, and keeps track of the user's progress. Correct inputs advance to the next step, while a single incorrect switch immediately resets the challenge back to the beginning, forcing the user to start the sequence again.
 Alongside the challenge logic, I integrated the buzzer so it continues sounding until the entire sequence has been completed successfully. The display also provides real-time
 
